@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px;
+  box-shadow: 0 1px 3px -2px black;
+  background-color: #582236;
+}
+.nav-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-right: 6px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: aliceblue;
+  
+}
+.nav-menu li {
+  display: inline-block;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+  align-items: center;
+  
+}
+.nav-login-cart button {
+  margin: 5px;
+  align-items: center;
+  width: 187px;
+  height: 58px;
+  outline: none;
+  border: 1px solid #7a7a7a;
+  border-radius: 75px;
+  color: #515151;
+  font-size: 20px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+}
+
+/* .Cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+

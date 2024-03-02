@@ -1,0 +1,12 @@
+.card{
+    display: flex;
+    flex:1;
+    border: 1px solid #ccc;
+    display: inline-flex;
+    justify-content:space-evenly;
+    background-color: #73411e;
+    height: 40vh;
+    width: 25vw;
+    margin: 20px;
+    
+}
